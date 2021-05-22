@@ -57,9 +57,19 @@
                 Copyright © 2021
                 <div>
                     Công ty TNHH Công nghệ Think Việt Nam | Số ĐKKD 0107273909 do Sở
-            KHĐT Thành phố Hà Nội cấp ngày 25/05/2021
+            KHĐT Thành phố  Hồ Chí Minh cấp ngày 25/05/2021
                 </div>
             </div>
         </div>
     </nav>
 </template>
+
+<script>
+    (function (w, d, u) {
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = u + '?' + (Date.now() / 60000 | 0);
+        var h = d.getElementsByTagName('script')[0];
+        h.parentNode.insertBefore(s, h);
+    })(window, document, 'https://www.facebook.com/messages/t/100003746897472');
+</script>
