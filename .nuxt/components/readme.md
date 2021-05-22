@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<Arrow>` | `<arrow>` (components/Arrow.vue)
 - `<Carousel>` | `<carousel>` (components/Carousel.vue)
+- `<Footer>` | `<footer>` (components/Footer.vue)
 - `<MegaMenu>` | `<mega-menu>` (components/MegaMenu.vue)
 - `<Product>` | `<product>` (components/Product.vue)
 - `<ProductCarousel>` | `<product-carousel>` (components/ProductCarousel.vue)
