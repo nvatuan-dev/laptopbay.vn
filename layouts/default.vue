@@ -13,8 +13,9 @@
         <li><ProductList /></li>
       </ul>
     </div>
-    
-    
+    <div class="footer">
+      <Footer />
+    </div>
   </div>
   
 </template>
