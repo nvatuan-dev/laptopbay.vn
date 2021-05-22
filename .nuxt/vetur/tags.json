@@ -1,0 +1,23 @@
+{
+  "Arrow": {
+    "description": "Auto imported from components/Arrow.vue"
+  },
+  "Carousel": {
+    "description": "Auto imported from components/Carousel.vue"
+  },
+  "MegaMenu": {
+    "description": "Auto imported from components/MegaMenu.vue"
+  },
+  "Product": {
+    "description": "Auto imported from components/Product.vue"
+  },
+  "ProductCarousel": {
+    "description": "Auto imported from components/ProductCarousel.vue"
+  },
+  "ProductList": {
+    "description": "Auto imported from components/ProductList.vue"
+  },
+  "SearchBar": {
+    "description": "Auto imported from components/SearchBar.vue"
+  }
+}
