@@ -38,7 +38,7 @@ export default {
     ProductCarousel,
     glassProductList
     /* GlassMorphicProductList */
-  }
+  },
   
 }
 

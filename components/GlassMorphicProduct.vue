@@ -1,5 +1,5 @@
 <template>
-    <section>
+    
         <div class="container">
             <div class="card">
                 <div class="img-box">
@@ -18,7 +18,8 @@
                 
             </div>
         </div>
-    </section>
+        
+    
 </template>
 <script>
 export default {
@@ -39,7 +40,7 @@ export default {
     
     /* .container {
         position: relative;
-        display: flex;
+        display: border-box;
         z-index: 10;
         justify-content: center;
         align-items: center;
