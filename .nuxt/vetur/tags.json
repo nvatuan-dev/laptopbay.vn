@@ -2,6 +2,12 @@
   "Arrow": {
     "description": "Auto imported from components/Arrow.vue"
   },
+  "BrandCard": {
+    "description": "Auto imported from components/BrandCard.vue"
+  },
+  "BrandCardList": {
+    "description": "Auto imported from components/BrandCardList.vue"
+  },
   "Button": {
     "description": "Auto imported from components/Button.vue"
   },
@@ -19,6 +25,9 @@
   },
   "MegaMenu": {
     "description": "Auto imported from components/MegaMenu.vue"
+  },
+  "MenuSide": {
+    "description": "Auto imported from components/MenuSide.vue"
   },
   "Product": {
     "description": "Auto imported from components/Product.vue"

@@ -1,6 +1,7 @@
 <template>
    <client-only>
       <section class="container-carousel">
+         <MenuSide />
          <vue-flux class="carousel-wrap"
       :options="vfOptions"
       :images="vfImages"
@@ -34,6 +35,7 @@ import {
    FluxPreloader
 } from 'vue-flux/dist-ssr/vue-flux.umd.min.js';
 import 'vue-flux/dist-ssr/vue-flux.css';
+import MenuSide from "../components/MenuSide";
 export default {
    components: {
       VueFlux,
@@ -41,6 +43,7 @@ export default {
       FluxControls,
       FluxPagination,
       FluxPreloader,
+      MenuSide
    },
 
    data: () => ({

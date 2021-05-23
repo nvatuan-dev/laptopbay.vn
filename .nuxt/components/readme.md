@@ -7,12 +7,15 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<Arrow>` | `<arrow>` (components/Arrow.vue)
+- `<BrandCard>` | `<brand-card>` (components/BrandCard.vue)
+- `<BrandCardList>` | `<brand-card-list>` (components/BrandCardList.vue)
 - `<Button>` | `<button>` (components/Button.vue)
 - `<Carousel>` | `<carousel>` (components/Carousel.vue)
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<GlassMorphicProduct>` | `<glass-morphic-product>` (components/GlassMorphicProduct.vue)
 - `<GlassMorphicProductList>` | `<glass-morphic-product-list>` (components/GlassMorphicProductList.vue)
 - `<MegaMenu>` | `<mega-menu>` (components/MegaMenu.vue)
+- `<MenuSide>` | `<menu-side>` (components/MenuSide.vue)
 - `<Product>` | `<product>` (components/Product.vue)
 - `<ProductCarousel>` | `<product-carousel>` (components/ProductCarousel.vue)
 - `<ProductList>` | `<product-list>` (components/ProductList.vue)
