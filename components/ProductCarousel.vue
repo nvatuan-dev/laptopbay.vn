@@ -1,14 +1,16 @@
 <template>
-  <div class="demo">
-    <CarouselCard :interval="7000" height="300px" type="card" arrow="always">
-      <CarouselCardItem v-for="product in products " :key="product.src" :product="product">
-        <div class="product-detail">
-          <img :src="product.src" class="image" />
-          <h2>{{ product.title }}</h2>
-        </div>
-      </CarouselCardItem>
-    </CarouselCard>
-  </div>
+  <section class="m-auto">
+    <div class="demo">
+      <CarouselCard :interval="7000" height="300px" type="card" arrow="always">
+        <CarouselCardItem v-for="product in products " :key="product.src" :product="product">
+          <div class="product-detail">
+            <img :src="product.src" class="image" />
+            <h2>{{ product.title }}</h2>
+          </div>
+        </CarouselCardItem>
+      </CarouselCard>
+    </div>
+  </section>
 </template>
 <script>
 export default {
@@ -36,7 +38,7 @@ export default {
 <style scoped>
   .demo {
     width: 800px;
-    margin: 0 auto
+    margin: auto;
   }
   /* .image {
     height: 100%;

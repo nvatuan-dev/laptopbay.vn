@@ -2,6 +2,9 @@
   "Arrow": {
     "description": "Auto imported from components/Arrow.vue"
   },
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
   "Carousel": {
     "description": "Auto imported from components/Carousel.vue"
   },

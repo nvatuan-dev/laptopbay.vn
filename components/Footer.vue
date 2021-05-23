@@ -1,75 +1,229 @@
 <template>
-    <nav id="footer" class="bg-gradient-to-r from-green-400 to-blue-600">
-        <!-- start container -->
-        <div class="container mx-auto pt-8 pb-4">
-            <div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-px lg:-mx-2 xl:-mx-2">
-                <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-                    <!-- Column 1 Content -->
-                    <img style="max-width: 70%;height:auto;" class="" src="../assets/Logo.png" alt="Logo">
+    <div>
+        <footer id="footer">
+            <div class="footer-top flex flex-wrap">
+                <a href="#" class="fs-logo">
+                    <img src="../assets/Logo.png" alt="logo footer" width="314" height="95">
+                </a>
+                <div class="fs-right flex">
+                    <div class="hotline font-semibold text-white">
+                        <div class="text-sm text-white text-opacity-80">Hotline</div>
+                        <a href="tel:0865865516">0865865516</a>
+                    </div>  
+                    <div class="social">
+                        <ul class="flex items-center space-x-2 md:space-x-4 text-dark-gray">    
+                            <li>
+                                <a aria-label="tag" rel="noopener" href="https://www.youtube.com/channel/UCtQhYOcTmYAf9OKa0ICW5GQ" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-brand">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 icon icon-icons">
+                                        <use href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-youtube" xlink:href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-youtube">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a aria-label="tag" rel="noopener" href="https://www.facebook.com/thinkpro.vn/" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-brand">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 icon icon-icons">
+                                        <use href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-fb" xlink:href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-fb">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a aria-label="tag" rel="noopener" href="https://www.instagram.com/thinkpro.vn/" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-brand">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 icon icon-icons">
+                                        <use href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-ig" xlink:href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-ig">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-                <!-- Column 2 Content -->
-                <h4 class="text-white">Policy</h4>
-                <ul class="nav navbar-nav">
-                    <li id="navi-2" class="leading-7 text-sm">
-                        <a class="text-white underline text-small" href="/page-1">
-                        Value</a>
+            </div>
+            <div class="content-wrapper flex flex-wrap">
+                <h2 class="title-mobile">
+                    <span>Sản phẩm và dịch vụ</span>
+                </h2>
+                <ul class="primary-links flex flex-wrap">
+                    <li class="primary-links__list-item">
+                        <h2 class="mb-4 text-lg font-semibold leading-140"><span>Sản phẩm và dịch vụ</span></h2>
+                        <ul>
+                            <li>
+                                <a href="/dell" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Laptop Dell
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/hp" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Laptop HP
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/thinkpad" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Laptop ThinkPad
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/lenovo" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Laptop Lenovo
+                                </a>
+                            </li>
+                        </ul>
                     </li>
-                    <li id="navi-1" class="leading-7 text-sm"><a class="text-white underline text-small" href="/page-2">Guarantee</a></li>
+                    <li class="primary-links__list-item">
+                        <h2 class="mb-4 text-lg font-semibold leading-140">
+                            <span>Chính sách</span>
+                        </h2>
+                        <ul>
+                            <li>
+                                <a href="/chinh-sach-bao-hanh" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Bảo hành
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/chinh-sach-van-chuyen" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Vận chuyển
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/chinh-sach-thanh-toan" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Thanh toán
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="primary-links__list-item">
+                        <h2 class="mb-4 text-lg font-semibold leading-140">
+                            <span>Về LaptopBay</span>
+                        </h2>
+                        <ul>
+                            <li>
+                                <a href="#" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Lịch sử thành lập
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Giá trị cốt lõi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
+                                Tầm nhìn, Sứ mệnh
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
-            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-                <!-- Column 3 Content -->
-                <h4 class="text-white">Info</h4>
-                <ul class="">
-                <li id="navi-2" class="leading-7 text-sm">
-                    <a class="text-white underline text-small" href="/page-1">
-                        About Us</a>
-                </li>
-                <li id="navi-1" class="leading-7 text-sm"><a class="text-white underline text-small" href="/page-2">Vision and Mission</a></li>
-                </ul>
-            </div>
-            <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-                <!-- Column 4 Content -->
-
-                <h4 class="text-white">Products</h4>
-                <ul class="">
-                <li id="navi-2" class="leading-7 text-sm">
-                    <a class="text-white underline text-small" href="/page-1">
-                        Dell</a>
-                </li>
-                <li id="navi-1" class="leading-7 text-sm"><a class="text-white underline text-small" href="/page-2">Lenovo</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- Start footer bottom -->
-        <div class="pt-4 md:flex md:items-center md:justify-center " style="border-top:1px solid white">
-            <ul class="">
-                <li class="md:mx-2 md:inline leading-7 text-sm" id="footer-navi-2"><a class="text-white underline text-small" href="/disclaimer">Disclaimer</a></li>
-                <li class="md:mx-2 md:inline leading-7 text-sm" id="footer-navi-2"><a class="text-white underline text-small" href="/cookie">Cookie policy</a></li>
-                <li class="md:mx-2 md:inline leading-7 text-sm" id="footer-navi-2"><a class="text-white underline text-small" href="/privacy">Privacy</a></li>
-                </ul>
-            </div>
-        <!-- end container -->
-        </div>
-        <div class="extra-content flex justify-between py-4 leading-160">
-            <div class="copy_right text-xs text-white text-opacity-80 flex-1 pr-10px">
-                Copyright © 2021
-                <div>
-                    Công ty TNHH Công nghệ Think Việt Nam | Số ĐKKD 0107273909 do Sở
-            KHĐT Thành phố  Hồ Chí Minh cấp ngày 25/05/2021
+                <div class="blog-content">
+                    <h2 class="mb-6 text-lg font-semibold leading-140">
+                        <span>Hệ thống cửa hàng</span>
+                    </h2>
+                    <ul class="flex">
+                        <li>
+                            <div class="city front-semibold">TP. Hồ Chí Minh:</div>
+                            <div>
+                                <div class="address mt-10">
+                                    18A/1 Cộng Hòa, Phường 14, Quận Tân Bình, TP. Hồ Chí Minh
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
+            <div class="extra-content flex justify-between py-4 leading-160">
+                <div class="copy_right text-xs text-white text-opacity-80 flex-1 pr-10px">
+                    Copyright © 2021
+                    <div>
+                        Công ty TNHH Công nghệ Think Việt Nam | Số ĐKKD 0107273909 do Sở
+                        KHĐT Thành phố  Hồ Chí Minh cấp ngày 25/05/2021
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </template>
 
-<script>
-    (function (w, d, u) {
-        var s = d.createElement('script');
-        s.async = true;
-        s.src = u + '?' + (Date.now() / 60000 | 0);
-        var h = d.getElementsByTagName('script')[0];
-        h.parentNode.insertBefore(s, h);
-    })(window, document, 'https://www.facebook.com/messages/t/100003746897472');
-</script>
+<style scoped>
+    div{
+        display: block;
+    }
+    *, :after, :before{
+        --animation-duration: 1s;
+        --animation-iteration-count:infinite;
+    }
+    *, :after, :before{
+        box-sizing: border-box;
+        border: 0 solid #f7f9fb;
+    }
+    footer{
+        background: #05042C;
+        position: relative;
+        color: #fff;
+        padding-top: 45px;
+        font-size: 16px;
+        display: block;
+    }
+    footer .footer-top{
+        justify-content: space-between;
+    }
+    .container{
+        max-width: 1254px;
+        margin: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: relative;
+        width: 100%;
+        clear: both;
+    }
+    footer .fs-right{
+        display: flex;
+        width: 424px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .content-wrapper{
+        margin: 0 auto;
+        padding: 30px 0 0;
+    }
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+    .flex{
+        display: flex;
+    }
+    *, :after, :before{
+        --animation-duration: 1s;
+        --animation-iteration-count:infinite;
+    }
+    *, :after, :before{
+        box-sizing: border-box;
+        border: 0 solid #f7f9fb;
+    }
+    footer .title-mobile{
+        display: none;
+    }
+    h2{
+        font-size: inherit;
+        font-weight: inherit;
+        margin: 0;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    footer .primary-links{
+        width: 798px;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+    
+</style>
