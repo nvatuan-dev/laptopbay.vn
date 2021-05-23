@@ -43,7 +43,6 @@ export default {
 
 <style>
   * {
-    margin: 8;
     padding: 0;
     box-sizing: border-box;
   }
@@ -62,7 +61,6 @@ export default {
   .products {
     display: flex;
     max-width: 1280px;
-    padding: 25px;
     margin: 0 auto;
   }
 </style>
