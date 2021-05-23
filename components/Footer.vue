@@ -196,7 +196,7 @@
         --animation-duration: 1s;
         --animation-iteration-count:infinite;
     }
-    *{
+    *, :after, :before{
         box-sizing: border-box;
         border: 0 solid #f7f9fb;
     }
@@ -250,27 +250,17 @@
     .font-semibold{
         font-weight: 600;
     }
-    :root{
-        --black: #0e0e0e;
-    --color_main: #06c1d4;
-    /* --color_main_hover: #06c1d4; */
-    --color_main_active: #06c1d4;
-    --color_main_hover: #d1f5f9;
-    --cyan50: #d1f5f9;
-    --white: #fff;
-    --dark_gray: #171c27;
-    --dark_blue: #242368;
-    --gray700: #272e3c;
-    --gray600: #414956;
-    --gray500: #7a8088;
-    --gray200: #d2d7e1;
-    --gray100: #e3e7ef;
-    --gray50: #f3f5f8;
-    --gray10: #fbfbfb;
-    --red: #d53b2a;
-    --oranger: #ed6e33;
-    --green: #21a453;
-    --font_main: "SF_Pro_Display";
-    --font_second: "SFProText";
+    .py-4{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .leading-160{
+        line-height: 1.6;
+    }
+    .justify-between{
+        justify-content: space-between;
+    }
+    html{
+        -webkit-text-size-adjust: none;
     }
 </style>

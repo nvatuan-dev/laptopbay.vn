@@ -49,9 +49,9 @@ export default {
          aspectRatio: "16:9"
       },
       vfImages: [
-          "https://laptopchat.vn/wp-content/uploads/2020/12/Lenovo-ThinkPad-P1-Gen-3.jpg",
-          "https://cdn.editorji.com/5f1c3122c3ee8_alienware-m15-r3.jpg",
-          "https://www.esquireme.com/public/images/2020/06/25/lenovo-legion-y740-15-2.jpg",
+         "https://laptopchat.vn/wp-content/uploads/2020/12/Lenovo-ThinkPad-P1-Gen-3.jpg",
+         "https://cdn.editorji.com/5f1c3122c3ee8_alienware-m15-r3.jpg",
+         "https://www.esquireme.com/public/images/2020/06/25/lenovo-legion-y740-15-2.jpg",
       ],
       vfTransitions: ['blinds2d' ],
    }),

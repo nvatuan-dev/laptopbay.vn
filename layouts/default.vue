@@ -15,6 +15,7 @@
         </div>
       </ul>
     </div>
+    <Button />
     <glassProductList />
     <Footer />
   </div>
