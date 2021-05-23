@@ -192,11 +192,11 @@
     .flex{
         display: flex;
     }
-    *, :after, :before{
+    *{
         --animation-duration: 1s;
         --animation-iteration-count:infinite;
     }
-    *, :after, :before{
+    *{
         box-sizing: border-box;
         border: 0 solid #f7f9fb;
     }
@@ -230,5 +230,47 @@
         width: 25%;
         page-break-inside: avoid;
         break-inside: avoid;
+    }
+    li{
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    footer .primary-links__list-item:nth-child(2){
+        margin-top: 42px;
+    }
+    .mb-4{
+        margin-bottom: 1rem;
+    }
+    .leading-140{
+        line-height: 1.4;
+    }
+    .text-lg{
+        font-size: 1.125rem;
+    }
+    .font-semibold{
+        font-weight: 600;
+    }
+    :root{
+        --black: #0e0e0e;
+    --color_main: #06c1d4;
+    /* --color_main_hover: #06c1d4; */
+    --color_main_active: #06c1d4;
+    --color_main_hover: #d1f5f9;
+    --cyan50: #d1f5f9;
+    --white: #fff;
+    --dark_gray: #171c27;
+    --dark_blue: #242368;
+    --gray700: #272e3c;
+    --gray600: #414956;
+    --gray500: #7a8088;
+    --gray200: #d2d7e1;
+    --gray100: #e3e7ef;
+    --gray50: #f3f5f8;
+    --gray10: #fbfbfb;
+    --red: #d53b2a;
+    --oranger: #ed6e33;
+    --green: #21a453;
+    --font_main: "SF_Pro_Display";
+    --font_second: "SFProText";
     }
 </style>

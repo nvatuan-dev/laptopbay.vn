@@ -1,6 +1,7 @@
 <template>
    <client-only>
-      <vue-flux
+      <section class="container-carousel">
+         <vue-flux class="carousel-wrap"
       :options="vfOptions"
       :images="vfImages"
       :transitions="vfTransitions">
@@ -21,6 +22,7 @@
             <flux-pagination />
          </template>
       </vue-flux>
+      </section>
    </client-only>
 </template>
 <script>
@@ -55,3 +57,23 @@ export default {
    }),
 }
 </script>
+<style>
+   .carousel-wrap {
+      width: 900px;
+      margin:0 auto;
+      border-radius: 25px;
+      z-index: 1;
+   }
+   .container-carousel{
+      /* max-width: 1400px; */
+      margin:0 auto;
+      padding-top:30px;
+      padding-bottom: 30px;
+      background-image: linear-gradient(270deg, #2563EB, #34D399);
+      border-radius: 25px;
+
+   }
+   .container-carousel background-image{
+      filter: blur(8px);
+   }
+</style>

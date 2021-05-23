@@ -11,6 +11,12 @@
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
   },
+  "GlassMorphicProduct": {
+    "description": "Auto imported from components/GlassMorphicProduct.vue"
+  },
+  "GlassMorphicProductList": {
+    "description": "Auto imported from components/GlassMorphicProductList.vue"
+  },
   "MegaMenu": {
     "description": "Auto imported from components/MegaMenu.vue"
   },

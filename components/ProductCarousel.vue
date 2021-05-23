@@ -1,7 +1,7 @@
 <template>
   <section class="m-auto">
     <div class="demo">
-      <CarouselCard :interval="7000" height="300px" type="card" arrow="always">
+      <CarouselCard :interval="2000" height="300px" type="card" arrow="always">
         <CarouselCardItem v-for="product in products " :key="product.src" :product="product">
           <div class="product-detail">
             <img :src="product.src" class="image" />
@@ -23,12 +23,16 @@ export default {
           src: require('../static/laptop_images/1.jpg')
         },
         {
-          title: 'Thinkpad X1',
+          title: 'Asus',
           src: require('../static/laptop_images/2.jpeg')
         },
         {
-          title: 'Thinkpad X1',
+          title: 'Lenovo',
           src: require('../static/laptop_images/3.jpg')
+        },
+        {
+          title: 'Dell',
+          src: require('../static/laptop_images/4.jpeg')
         }
       ]
     }
@@ -58,6 +62,6 @@ export default {
     font-size: 18px;
     font-weight: 700;
     color: #9d29ee;
-    transform-origin: center;
+    margin: 0 auto;
   }
 </style>
