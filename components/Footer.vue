@@ -225,5 +225,10 @@
         margin-inline-end: 0px;
         padding-inline-start: 40px;
     }
-    
+    footer .primary-links__list-item{
+        padding-bottom: 25px;
+        width: 25%;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
 </style>
