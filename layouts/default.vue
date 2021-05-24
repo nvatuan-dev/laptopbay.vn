@@ -21,7 +21,6 @@
     <div>
       <ProductCarousel />
     </div>
-    <glassProductList />
     <Button />
     <div class="pl-4">
       <glassProductList />

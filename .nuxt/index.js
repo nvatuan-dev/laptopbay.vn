@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_2c2ea5d5 from 'nuxt_plugin_plugin_2c2ea5d5' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_b9d0bcc4 from 'nuxt_plugin_plugin_b9d0bcc4' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_vuecarouselcard_2036c03c from 'nuxt_plugin_vuecarouselcard_2036c03c' // Source: ../plugins/vue-carousel-card (mode: 'all')
 import nuxt_plugin_lightGalleryclient_235dd9a0 from 'nuxt_plugin_lightGalleryclient_235dd9a0' // Source: ../plugins/lightGallery.client.js (mode: 'client')
 
@@ -178,8 +178,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_2c2ea5d5 === 'function') {
-    await nuxt_plugin_plugin_2c2ea5d5(app.context, inject)
+  if (typeof nuxt_plugin_plugin_b9d0bcc4 === 'function') {
+    await nuxt_plugin_plugin_b9d0bcc4(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuecarouselcard_2036c03c === 'function') {
