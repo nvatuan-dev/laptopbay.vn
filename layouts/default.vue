@@ -15,8 +15,10 @@
       <ProductList />
     </div>
     <!-- Banner -->
-    <div>
-      <img src= "../assets/banner/banner_1.jpg">
+    <div class="flex items-center justify-center">
+      <div class="grid">
+        <img class="object-cover h-80 md:object-scale-down" src= "../assets/banner/banner_1.jpg">
+      </div>
     </div>
     <div>
       <ProductCarousel />
