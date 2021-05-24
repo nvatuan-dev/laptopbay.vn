@@ -52,7 +52,7 @@ export default {
         width: 250px;
         height: 450px;
         margin: 20px 40px;
-        display: flex;
+        display: inline-block;
         justify-content: center;
         align-items: center;
         flex-direction: column;

@@ -1,28 +1,32 @@
 <template>
    <client-only>
       <section class="container-carousel">
-         <MenuSide />
-         <vue-flux class="carousel-wrap"
-      :options="vfOptions"
-      :images="vfImages"
-      :transitions="vfTransitions">
+         <div>
+            <MenuSide />
+         </div>
+         <div>
+            <vue-flux class="carousel-wrap"
+            :options="vfOptions"
+            :images="vfImages"
+            :transitions="vfTransitions">
 
-         <template v-slot:preloader>
-            <flux-preloader />
-         </template>
+               <template v-slot:preloader>
+                  <flux-preloader />
+               </template>
 
-         <template v-slot:caption>
-            <flux-caption />
-         </template>
+               <template v-slot:caption>
+                  <flux-caption />
+               </template>
 
-         <template v-slot:controls>
-            <flux-controls />
-         </template>
+               <template v-slot:controls>
+                  <flux-controls />
+               </template>
 
-         <template v-slot:pagination>
-            <flux-pagination />
-         </template>
-      </vue-flux>
+               <template v-slot:pagination>
+                  <flux-pagination />
+               </template>
+            </vue-flux>
+         </div>
       </section>
    </client-only>
 </template>
@@ -66,6 +70,7 @@ export default {
       margin:0 auto;
       border-radius: 25px;
       z-index: 1;
+      display: flex;
    }
    .container-carousel{
       /* max-width: 1400px; */
