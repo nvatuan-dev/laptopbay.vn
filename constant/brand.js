@@ -1,25 +1,21 @@
 export const brands = [{
-        title: 'Thinkpad T14S',
-        src: require('../assets/laptop-png/T14s.png')
+        title: 'Gigabyte',
+        src: require('../assets/brand/gigabyte.png')
     },
     {
-        title: 'Thinkpad T460',
-        src: require('../assets/laptop-png/T460.png')
+        title: 'HP',
+        src: require('../assets/brand/hp.png')
     },
     {
-        title: 'Thinkpad T560',
-        src: require('../assets/laptop-png/T560.png')
+        title: 'MSI',
+        src: require('../assets/brand/msi.png')
     },
     {
-        title: 'Thinkpad X1 Gen 6',
-        src: require('../assets/laptop-png/x1gen6.png')
+        title: 'Razer',
+        src: require('../assets/brand/razer.png')
     },
     {
-        title: 'Thinkpad X1 Gen 7',
-        src: require('../assets/laptop-png/x1gen7.png')
-    },
-    {
-        title: 'Thinkpad X1 Gen 9',
-        src: require('../assets/laptop-png/x1gen9.png')
+        title: 'Roccat',
+        src: require('../assets/brand/roccat.png')
     }
 ]

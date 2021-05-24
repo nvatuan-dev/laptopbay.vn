@@ -20,3 +20,4 @@ You can directly use them in pages and other components without the need to impo
 - `<ProductCarousel>` | `<product-carousel>` (components/ProductCarousel.vue)
 - `<ProductList>` | `<product-list>` (components/ProductList.vue)
 - `<SearchBar>` | `<search-bar>` (components/SearchBar.vue)
+- `<SideGallery>` | `<side-gallery>` (components/SideGallery.vue)

@@ -7,6 +7,9 @@
     <div class="h-full" style="border-radius: 10px 10px 0 0">
       <Carousel />
     </div>
+    <div>
+      <BrandCardList />
+    </div>
     <Button />
     <div class="product-section pt-2">
       <ul>
@@ -30,6 +33,7 @@ import Carousel from "../components/Carousel";
 import Product from "../components/Product";
 import ProductList from "../components/ProductList";
 import ProductCarousel from "../components/ProductCarousel";
+import BrandCardList from "../components/BrandCardList";
 /* import GlassMorphicProductList from "../components/GlassMorphicProductList"; */
 import glassProductList from "../components/GlassMorphicProductList";
 export default {
@@ -39,8 +43,9 @@ export default {
     Product,
     ProductList,
     ProductCarousel,
-    glassProductList
+    glassProductList,
     /* GlassMorphicProductList */
+    BrandCardList
   },
   
 }
