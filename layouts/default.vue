@@ -3,7 +3,8 @@
     <div class="block pb-2">
       <MegaMenu />
     </div>
-    <div>
+    <div class="border-t-8 pb-2"></div>
+    <div class="h-full" style="border-radius: 10px 10px 0 0">
       <Carousel />
     </div>
     <div>
@@ -20,8 +21,11 @@
     <div>
       <ProductCarousel />
     </div>
-    
     <glassProductList />
+    <Button />
+    <div class="pl-4">
+      <glassProductList />
+    </div>
     <Footer />
   </div>
 </template>
