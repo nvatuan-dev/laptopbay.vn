@@ -14,7 +14,8 @@
     "nuxt": "^2.15.6",
     "tailwindcss": "^2.1.2",
     "vue-carousel-card": "^1.0.6",
-    "vue-flux": "^6.4.0"
+    "vue-flux": "^6.4.0",
+    "vue-light-gallery": "^1.0.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.1",

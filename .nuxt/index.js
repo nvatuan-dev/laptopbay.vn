@@ -14,6 +14,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_plugin_2c2ea5d5 from 'nuxt_plugin_plugin_2c2ea5d5' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_vuecarouselcard_2036c03c from 'nuxt_plugin_vuecarouselcard_2036c03c' // Source: ../plugins/vue-carousel-card (mode: 'all')
+import nuxt_plugin_lightGalleryclient_235dd9a0 from 'nuxt_plugin_lightGalleryclient_235dd9a0' // Source: ../plugins/lightGallery.client.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -183,6 +184,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_vuecarouselcard_2036c03c === 'function') {
     await nuxt_plugin_vuecarouselcard_2036c03c(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_lightGalleryclient_235dd9a0 === 'function') {
+    await nuxt_plugin_lightGalleryclient_235dd9a0(app.context, inject)
   }
 
   // Lock enablePreview in context

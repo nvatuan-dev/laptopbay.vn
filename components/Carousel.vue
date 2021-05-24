@@ -23,6 +23,7 @@
             <flux-pagination />
          </template>
       </vue-flux>
+      <SideGallery />
       </section>
    </client-only>
 </template>
@@ -36,6 +37,7 @@ import {
 } from 'vue-flux/dist-ssr/vue-flux.umd.min.js';
 import 'vue-flux/dist-ssr/vue-flux.css';
 import MenuSide from "../components/MenuSide";
+import SideGallery from "../components/SideGallery";
 export default {
    components: {
       VueFlux,
@@ -43,7 +45,8 @@ export default {
       FluxControls,
       FluxPagination,
       FluxPreloader,
-      MenuSide
+      MenuSide,
+      SideGallery
    },
 
    data: () => ({
@@ -76,7 +79,5 @@ export default {
       border-radius: 25px;
 
    }
-   .container-carousel background-image{
-      filter: blur(8px);
-   }
+   
 </style>

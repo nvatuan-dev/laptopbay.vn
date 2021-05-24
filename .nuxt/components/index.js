@@ -14,6 +14,7 @@ export { default as Product } from '../../components/Product.vue'
 export { default as ProductCarousel } from '../../components/ProductCarousel.vue'
 export { default as ProductList } from '../../components/ProductList.vue'
 export { default as SearchBar } from '../../components/SearchBar.vue'
+export { default as SideGallery } from '../../components/SideGallery.vue'
 
 export const LazyArrow = import('../../components/Arrow.vue' /* webpackChunkName: "components/arrow" */).then(c => wrapFunctional(c.default || c))
 export const LazyBrandCard = import('../../components/BrandCard.vue' /* webpackChunkName: "components/brand-card" */).then(c => wrapFunctional(c.default || c))
@@ -29,3 +30,4 @@ export const LazyProduct = import('../../components/Product.vue' /* webpackChunk
 export const LazyProductCarousel = import('../../components/ProductCarousel.vue' /* webpackChunkName: "components/product-carousel" */).then(c => wrapFunctional(c.default || c))
 export const LazyProductList = import('../../components/ProductList.vue' /* webpackChunkName: "components/product-list" */).then(c => wrapFunctional(c.default || c))
 export const LazySearchBar = import('../../components/SearchBar.vue' /* webpackChunkName: "components/search-bar" */).then(c => wrapFunctional(c.default || c))
+export const LazySideGallery = import('../../components/SideGallery.vue' /* webpackChunkName: "components/side-gallery" */).then(c => wrapFunctional(c.default || c))

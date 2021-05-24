@@ -40,5 +40,8 @@
   },
   "SearchBar": {
     "description": "Auto imported from components/SearchBar.vue"
+  },
+  "SideGallery": {
+    "description": "Auto imported from components/SideGallery.vue"
   }
 }
