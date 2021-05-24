@@ -3,21 +3,24 @@
     <div class="block pb-2">
       <MegaMenu />
     </div>
-    <div class="h-full" style="border-radius: 10px 10px 0 0">
+    <div>
       <Carousel />
     </div>
     <div>
       <BrandCardList />
     </div>
     <Button />
-    <div class="product-section pt-2">
-      <ul>
-        <li><ProductList /></li>
-        <div>
-          <ProductCarousel />
-        </div>
-      </ul>
+    <div>
+      <ProductList />
     </div>
+    <!-- Banner -->
+    <div>
+      <img src= "../assets/banner/banner_1.jpg">
+    </div>
+    <div>
+      <ProductCarousel />
+    </div>
+    
     <glassProductList />
     <Footer />
   </div>

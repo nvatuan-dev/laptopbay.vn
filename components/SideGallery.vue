@@ -1,20 +1,22 @@
 <template>
   <div>
+    <div class="flex-col">
       <div
           v-for="(thumb, thumbIndex) in images"
           :key="thumbIndex"
-          class="flex mr-8"
+          class="flex-1 mr-8"
           @click="index = thumbIndex"
         >
           <img width="300" height="300" :src="thumb.url" class="thumbnail" />
-        </div>
+      </div>
+    </div>
         <LightGallery
           :images="images"
           :index="index"
           :disable-scroll="false"
           @close="index = null"
         />
-    </div>
+  </div>
 </template>
 <script>
 export default {
