@@ -26,3 +26,5 @@ You can directly use them in pages and other components without the need to impo
 - `<SideGallery>` | `<side-gallery>` (components/SideGallery.vue)
 - `<SideRightBar>` | `<side-right-bar>` (components/SideRightBar.vue)
 - `<Test>` | `<test>` (components/Test.vue)
+- `<Testimonials>` | `<testimonials>` (components/Testimonials.vue)
+- `<TopNav>` | `<top-nav>` (components/TopNav.vue)

@@ -2,9 +2,6 @@
    <client-only>
       <section class="container-carousel">
          <div>
-            <MenuSide />
-         </div>
-         <div>
             <vue-flux class="carousel-wrap"
             :options="vfOptions"
             :images="vfImages"
@@ -80,9 +77,8 @@ export default {
       margin:0 auto;
       padding-top:30px;
       padding-bottom: 30px;
-      background-image: linear-gradient(270deg, #2563EB, #34D399);
+      background-color: rgb(30, 58, 138);
       border-radius: 25px;
-
    }
    
 </style>

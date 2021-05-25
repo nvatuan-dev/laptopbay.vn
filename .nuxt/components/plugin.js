@@ -21,7 +21,9 @@ const components = {
   ProductList: () => import('../..\\components\\ProductList.vue' /* webpackChunkName: "components/product-list" */).then(c => wrapFunctional(c.default || c)),
   SideGallery: () => import('../..\\components\\SideGallery.vue' /* webpackChunkName: "components/side-gallery" */).then(c => wrapFunctional(c.default || c)),
   SideRightBar: () => import('../..\\components\\SideRightBar.vue' /* webpackChunkName: "components/side-right-bar" */).then(c => wrapFunctional(c.default || c)),
-  Test: () => import('../..\\components\\Test.vue' /* webpackChunkName: "components/test" */).then(c => wrapFunctional(c.default || c))
+  Test: () => import('../..\\components\\Test.vue' /* webpackChunkName: "components/test" */).then(c => wrapFunctional(c.default || c)),
+  Testimonials: () => import('../..\\components\\Testimonials.vue' /* webpackChunkName: "components/testimonials" */).then(c => wrapFunctional(c.default || c)),
+  TopNav: () => import('../..\\components\\TopNav.vue' /* webpackChunkName: "components/top-nav" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {
