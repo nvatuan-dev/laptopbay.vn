@@ -17,11 +17,7 @@
         "vue-fb-customer-chat": "^0.2.0",
         "vue-flux": "^6.4.0",
         "vue-light-gallery": "^1.0.1",
-<<<<<<< HEAD
-        "vue-tilt.js": "^1.1.1",
-=======
         "vue-tilt.js": "^1.1.1"
->>>>>>> 096c39c706a381bf50939b71979f0f7a9ff78340
     },
     "devDependencies": {
         "@nuxtjs/tailwindcss": "^4.1.2",

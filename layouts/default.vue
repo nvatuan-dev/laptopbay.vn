@@ -1,8 +1,11 @@
 <template>
   <div>
-    <div class="block pb-2">
-      <MegaMenu />
+    <div class="bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-300">
+      <div class="container mx-auto">
+        <TopNav />
+      </div>
     </div>
+    
     <div class="border-t-8 pb-2"></div>
     <div class="h-full" style="border-radius: 10px 10px 0 0">
       <Carousel />
@@ -23,7 +26,7 @@
         <div class="container justify-center items-center mx-auto py-3">
           <glassProductList />
         </div>
-        <div class="container text-center mx-auto p-4 bg-gray-200">
+        <div class="container text-center mx-auto p-4 bg-blue-900 rounded-xl">
           <Button />
         </div>
         <div class="container justify-center items-center mx-auto py-3">
@@ -36,17 +39,7 @@
             src="../assets/banner/banner_1.jpg"
           />
         </div>
-        <div
-          class="
-            container
-            justify-center
-            items-center
-            mx-auto
-            py-4
-            bg-gray-200
-            rounded-xl
-          "
-        >
+        <div class="container text-center mx-auto p-4 bg-blue-900 rounded-xl">
           <Button />
         </div>
         <div class="container justify-center items-center mx-auto py-3">
@@ -62,6 +55,9 @@
           <ArticleGrid />
         </div>
         <ProductCarousel />
+        <div class="container justify-center items-center mx-auto py-3">
+          <Testimonials />
+        </div>
       </main>
       <aside class="h-screen sticky top-4 right-0">
         <div class="flex">
@@ -75,7 +71,7 @@
   </div>
 </template>
 <script>
-import MegaMenu from "../components/MegaMenu";
+import TopNav from "../components/TopNav";
 import Button from "../components/Button";
 import Carousel from "../components/Carousel";
 import Product from "../components/Product";
@@ -87,9 +83,10 @@ import glassProductList from "../components/GlassMorphicProductList";
 import SideRightBar from "../components/SideRightBar";
 import ProductCardList from "../components/ProductCardList";
 import ArticleGrid from "../components/ArticleGrid";
+import Testimonials from "../components/Testimonials";
 export default {
   components: {
-    MegaMenu,
+    TopNav,
     Carousel,
     Product,
     ProductList,
@@ -98,7 +95,8 @@ export default {
     /* GlassMorphicProductList */
     BrandCardList,
     ProductCardList,
-    ArticleGrid
+    ArticleGrid,
+    Testimonials
   },
 };
 </script>

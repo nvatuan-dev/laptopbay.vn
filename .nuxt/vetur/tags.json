@@ -58,5 +58,11 @@
   },
   "Test": {
     "description": "Auto imported from components/Test.vue"
+  },
+  "Testimonials": {
+    "description": "Auto imported from components/Testimonials.vue"
+  },
+  "TopNav": {
+    "description": "Auto imported from components/TopNav.vue"
   }
 }
