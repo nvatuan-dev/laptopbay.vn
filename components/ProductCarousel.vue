@@ -1,16 +1,13 @@
 <template>
-  <section class="m-auto">
-    <div class="demo">
-      <CarouselCard :interval="2000" height="300px" type="card" arrow="always">
+    <div class="container items-cemter justify-center mx-auto py-8 bg-gray-200">
+      <CarouselCard :interval="2000" height="400px" type="card" arrow="always">
         <CarouselCardItem v-for="product in products " :key="product.src" :product="product">
-          <div class="product-detail">
+          <div class="mb-4">
             <img :src="product.src" class="image" />
-            <h2>{{ product.title }}</h2>
           </div>
         </CarouselCardItem>
       </CarouselCard>
-    </div>
-  </section>
+    </div> 
 </template>
 <script>
 export default {
@@ -40,10 +37,10 @@ export default {
 }
 </script>
 <style scoped>
-  .demo {
+  /* .demo {
     width: 800px;
     margin: auto;
-  }
+  } */
   /* .image {
     height: 100%;
     padding: 0;
@@ -53,11 +50,11 @@ export default {
     align-items: center;
   } */
 
-  .product-detail {
+  /* .product-detail {
     background-color: #FFF;
     padding: 20px;
     margin: 0px auto;
-  }
+  } */
   .product-detail h2 {
     font-size: 18px;
     font-weight: 700;

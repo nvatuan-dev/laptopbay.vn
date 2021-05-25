@@ -8,6 +8,8 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../assets/css/tailwind.css'
 
+import '../assets/css/tailwind.css'
+
 import _6f6c098b from '../layouts/default.vue'
 import _7164b5c6 from '../layouts/errror.vue'
 

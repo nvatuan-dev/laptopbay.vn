@@ -1,17 +1,20 @@
 <template>
   <div>
-    <div>
-        <div class="inline-flex justify-between flex-wrap space-x-4 pb-3 pl-4">
+    <div class="flex justify-center bg-gradient-to-r from-green-400 to-blue-600 rounded-2xl">
+        <div class="md:grid grid-cols-3 gap-x-6 gap-y-4 py-4 items-center px-auto">
+          <GlassMorphicProduct
+          v-for="(laptop,pIndex) in toBeShown"
+          :key="pIndex"
+          :laptop="laptop"
+          />
+        </div>
+    </div>
+    <div class="inline-flex justify-between flex-wrap space-x-4 py-3 pl-4">
             <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" @click="prevPage" :disabled="currentPage ==1">Show Less</button>
             <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded" @click="nextPage" :disabled="currentPage == totalPages">Show More</button>
-        </div>
-      <GlassMorphicProduct
-        v-for="(laptop,pIndex) in toBeShown"
-        :key="pIndex"
-        :laptop="laptop"
-      />
     </div>
   </div>
+  
 </template>
 <script>
 import { products } from "../constant/product";

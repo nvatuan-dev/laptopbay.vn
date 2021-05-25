@@ -16,7 +16,7 @@ export const products = [{
     },
     {
         title: 'Thinkpad X1 Gen 7',
-        src: require('../assets/laptop-png/x1gen7.png')
+        src: require('../assets/laptop-png/x1gen6.png')
     },
     {
         title: 'Thinkpad X1 Gen 9',

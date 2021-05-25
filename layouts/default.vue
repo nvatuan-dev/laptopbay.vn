@@ -10,21 +10,30 @@
     <div>
       <BrandCardList />
     </div>
-    <Button />
-    <div class="flex flex-col w-full bg-white overflow-x-hidden overflow-y-auto mb-14">
-      <ProductList />
-      <div class="flex items-center justify-center">
-        <div class="grid">
-          <img class="object-cover h-80 md:object-scale-down" src= "../assets/banner/banner_1.jpg">
-        </div>
-      </div>
-      <ProductCarousel />
-    </div>
     <SideRightBar />
-    <Button />
-    <div class="pl-4">
+    <div class="container justify-center items-center mx-auto py-3">
       <glassProductList />
     </div>
+    <div class="container text-center mx-auto p-4 bg-gray-200">
+      <Button />
+    </div>
+    <div class="container justify-center items-center mx-auto py-3">
+      <ProductCardList />
+    </div>
+    <!-- Banner -->
+    <div class="container mx-auto bg-black pb-4">
+      <img class="object-cover h-80 mx-auto md:object-scale-down" src= "../assets/banner/banner_1.jpg">
+    </div>
+    <div class="container justify-center items-center mx-auto py-4 bg-gray-200 rounded-xl">
+      <Button />
+    </div>
+    <div class="container justify-center items-center mx-auto py-3">
+      <ProductCardList />
+    </div>
+    <ProductCarousel />
+    
+    
+    
     <Footer />
   </div>
 </template>
@@ -39,6 +48,7 @@ import BrandCardList from "../components/BrandCardList";
 /* import GlassMorphicProductList from "../components/GlassMorphicProductList"; */
 import glassProductList from "../components/GlassMorphicProductList";
 import SideRightBar from "../components/SideRightBar";
+import ProductCardList from "../components/ProductCardList";
 export default {
   components:{
     MegaMenu,
@@ -48,7 +58,8 @@ export default {
     ProductCarousel,
     glassProductList,
     /* GlassMorphicProductList */
-    BrandCardList
+    BrandCardList,
+    ProductCardList
   },
   
 }
