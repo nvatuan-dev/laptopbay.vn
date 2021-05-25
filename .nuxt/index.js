@@ -15,6 +15,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 import nuxt_plugin_plugin_b9d0bcc4 from 'nuxt_plugin_plugin_b9d0bcc4' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_vuecarouselcard_2036c03c from 'nuxt_plugin_vuecarouselcard_2036c03c' // Source: ../plugins/vue-carousel-card (mode: 'all')
 import nuxt_plugin_lightGalleryclient_235dd9a0 from 'nuxt_plugin_lightGalleryclient_235dd9a0' // Source: ../plugins/lightGallery.client.js (mode: 'client')
+import nuxt_plugin_vuefbcustomerchat_0b9d4ea4 from 'nuxt_plugin_vuefbcustomerchat_0b9d4ea4' // Source: ../plugins/vue-fb-customer-chat.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -188,6 +189,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_lightGalleryclient_235dd9a0 === 'function') {
     await nuxt_plugin_lightGalleryclient_235dd9a0(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_vuefbcustomerchat_0b9d4ea4 === 'function') {
+    await nuxt_plugin_vuefbcustomerchat_0b9d4ea4(app.context, inject)
   }
 
   // Lock enablePreview in context

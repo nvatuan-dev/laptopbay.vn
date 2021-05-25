@@ -21,5 +21,25 @@ export const products = [{
     {
         title: 'Thinkpad X1 Gen 9',
         src: require('../assets/laptop-png/x1gen9.png')
+    },
+    {
+        title: 'Thinkpad X1 Gen 9',
+        src: require('../assets/laptop-png/x1gen9.png')
+    },
+    {
+        title: 'Thinkpad X1 Gen 9',
+        src: require('../assets/laptop-png/x1gen9.png')
+    },
+    {
+        title: 'Thinkpad X1 Gen 9',
+        src: require('../assets/laptop-png/x1gen9.png')
+    },
+    {
+        title: 'Thinkpad X1 Gen 9',
+        src: require('../assets/laptop-png/x1gen9.png')
+    },
+    {
+        title: 'Thinkpad X1 Gen 9',
+        src: require('../assets/laptop-png/x1gen9.png')
     }
 ]

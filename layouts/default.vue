@@ -31,9 +31,6 @@
       <ProductCardList />
     </div>
     <ProductCarousel />
-    
-    
-    
     <Footer />
   </div>
 </template>
@@ -59,8 +56,8 @@ export default {
     glassProductList,
     /* GlassMorphicProductList */
     BrandCardList,
-    ProductCardList
-  },
+    ProductCardList,
+  }
   
 }
 
