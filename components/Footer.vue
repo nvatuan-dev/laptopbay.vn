@@ -1,266 +1,140 @@
 <template>
-    <div>
-        <footer id="footer">
-            <div class="footer-top flex flex-wrap">
-                <a href="#" class="fs-logo">
-                    <img src="../assets/Logo.png" alt="logo footer" width="314" height="95">
-                </a>
-                <div class="fs-right flex">
-                    <div class="hotline font-semibold text-white">
-                        <div class="text-sm text-white text-opacity-80">Hotline</div>
-                        <a href="tel:0865865516">0865865516</a>
-                    </div>  
-                    <div class="social">
-                        <ul class="flex items-center space-x-2 md:space-x-4 text-dark-gray">    
-                            <li>
-                                <a aria-label="tag" rel="noopener" href="https://www.youtube.com/channel/UCtQhYOcTmYAf9OKa0ICW5GQ" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-brand">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 icon icon-icons">
-                                        <use href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-youtube" xlink:href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-youtube">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a aria-label="tag" rel="noopener" href="https://www.facebook.com/thinkpro.vn/" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-brand">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 icon icon-icons">
-                                        <use href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-fb" xlink:href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-fb">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a aria-label="tag" rel="noopener" href="https://www.instagram.com/thinkpro.vn/" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-brand">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 icon icon-icons">
-                                        <use href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-ig" xlink:href="/_nuxt/9342dacb4eaef0aefc03c6d91ee1fb27.svg#i-ig">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+    <footer class="bg-gray-800 pt-10 sm:mt-10 pt-10">
+        <div class="max-w-6xl m-auto text-gray-800 flex flex-nowrap justify-left">
+            <!-- Col-1 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                    Hỗ trợ khách hàng
                 </div>
-            </div>
-            <div class="content-wrapper flex flex-wrap">
-                <h2 class="title-mobile">
-                    <span>Sản phẩm và dịch vụ</span>
-                </h2>
-                <ul class="primary-links flex flex-wrap">
-                    <li class="primary-links__list-item">
-                        <h2 class="mb-4 text-lg font-semibold leading-140"><span>Sản phẩm và dịch vụ</span></h2>
-                        <ul>
-                            <li>
-                                <a href="/dell" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Laptop Dell
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/hp" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Laptop HP
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/thinkpad" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Laptop ThinkPad
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/lenovo" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Laptop Lenovo
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="primary-links__list-item">
-                        <h2 class="mb-4 text-lg font-semibold leading-140">
-                            <span>Chính sách</span>
-                        </h2>
-                        <ul>
-                            <li>
-                                <a href="/chinh-sach-bao-hanh" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Bảo hành
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/chinh-sach-van-chuyen" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Vận chuyển
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/chinh-sach-thanh-toan" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Thanh toán
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="primary-links__list-item">
-                        <h2 class="mb-4 text-lg font-semibold leading-140">
-                            <span>Về LaptopBay</span>
-                        </h2>
-                        <ul>
-                            <li>
-                                <a href="#" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Lịch sử thành lập
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Giá trị cốt lõi
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white text-opacity-70 text-base pb-6px hover:text-brand block">
-                                Tầm nhìn, Sứ mệnh
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="blog-content">
-                    <h2 class="mb-6 text-lg font-semibold leading-140">
-                        <span>Hệ thống cửa hàng</span>
-                    </h2>
-                    <ul class="flex">
-                        <li>
-                            <div class="city front-semibold">TP. Hồ Chí Minh:</div>
-                            <div>
-                                <div class="address mt-10">
-                                    18A/1 Cộng Hòa, Phường 14, Quận Tân Bình, TP. Hồ Chí Minh
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="extra-content flex justify-between py-4 leading-160">
-                <div class="copy_right text-xs text-white text-opacity-80 flex-1 pr-10px">
-                    Copyright © 2021
-                    <div>
-                        Công ty TNHH Công nghệ Think Việt Nam | Số ĐKKD 0107273909 do Sở
-                        KHĐT Thành phố  Hồ Chí Minh cấp ngày 25/05/2021
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-</template>
 
-<style scoped>
-    div{
-        display: block;
-    }
-    *, :after, :before{
-        --animation-duration: 1s;
-        --animation-iteration-count:infinite;
-    }
-    *, :after, :before{
-        box-sizing: border-box;
-        border: 0 solid #f7f9fb;
-    }
-    footer{
-        background: #05042C;
-        position: relative;
-        color: #fff;
-        padding-top: 45px;
-        font-size: 16px;
-        display: block;
-    }
-    footer .footer-top{
-        justify-content: space-between;
-    }
-    .container{
-        max-width: 1254px;
-        margin: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        position: relative;
-        width: 100%;
-        clear: both;
-    }
-    footer .fs-right{
-        display: flex;
-        width: 424px;
-        align-items: center;
-        justify-content: space-between;
-    }
-    footer .content-wrapper{
-        margin: 0 auto;
-        padding: 30px 0 0;
-    }
-    .flex-wrap{
-        flex-wrap: wrap;
-    }
-    .flex{
-        display: flex;
-    }
-    *{
-        --animation-duration: 1s;
-        --animation-iteration-count:infinite;
-    }
-    *, :after, :before{
-        box-sizing: border-box;
-        border: 0 solid #f7f9fb;
-    }
-    footer .title-mobile{
-        display: none;
-    }
-    h2{
-        font-size: inherit;
-        font-weight: inherit;
-        margin: 0;
-        margin-block-start: 0.83em;
-        margin-block-end: 0.83em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
-    footer .primary-links{
-        width: 798px;
-    }
-    ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 40px;
-    }
-    footer .primary-links__list-item{
-        padding-bottom: 25px;
-        width: 25%;
-        page-break-inside: avoid;
-        break-inside: avoid;
-    }
-    li{
-        display: list-item;
-        text-align: -webkit-match-parent;
-    }
-    footer .primary-links__list-item:nth-child(2){
-        margin-top: 42px;
-    }
-    .mb-4{
-        margin-bottom: 1rem;
-    }
-    .leading-140{
-        line-height: 1.4;
-    }
-    .text-lg{
-        font-size: 1.125rem;
-    }
-    .font-semibold{
-        font-weight: 600;
-    }
-    .py-4{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .leading-160{
-        line-height: 1.6;
-    }
-    .justify-between{
-        justify-content: space-between;
-    }
-    html{
-        -webkit-text-size-adjust: none;
-    }
-</style>
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Thẻ ưu đãi
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Trung tâm bảo hành
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Thanh toán và giao hàng
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Dịch vụ sửa chữa và bảo trì
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Doanh nghiệp liên kết
+                </a>
+            </div>
+
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                    Chính sách mua hàng và bảo hành
+                </div>
+
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Quy định chung
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Chính sách bảo mật thông tin 
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Chính sách vận chuyển và lắp đặt 
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Chính sách bảo hành
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Chính sách đổi trả và hoàn tiền
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Chính sách trả góp
+                </a>
+            </div>
+
+            <!-- Col-3 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                    Thông tin LaptopBay
+                </div>
+
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Giới thiệu về LaptopBay
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Thông tin liên hệ
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Hệ thống cửa hàng
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Hỏi đáp
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Customizing Spacing
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Tin công nghệ
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Tuyển dụng
+                </a>
+            </div>
+
+            <!-- Col-3 -->
+            <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+                <!-- Col Title -->
+                <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                    Cộng đồng LaptopBay
+                </div>
+
+                <!-- Links -->
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    GitHub
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Discord
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Twitter
+                </a>
+                <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    YouTube
+                </a>
+            </div>
+        </div>
+
+        <!-- Copyright Bar -->
+        <div class="pt-2">
+            <div class="flex pb-5 px-3 m-auto pt-5 
+                border-t border-gray-500 text-gray-400 text-sm 
+                flex-col md:flex-row max-w-6xl">
+                <div class="mt-2">
+                    © Copyright 2021. All Rights Reserved.
+                </div>
+
+                <!-- Required Unicons (if you want) -->
+                <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-youtube"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="#" class="w-6 mx-1">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</template>
