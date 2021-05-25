@@ -3,6 +3,8 @@ import { wrapFunctional } from './utils'
 
 const components = {
   Arrow: () => import('../../components/Arrow.vue' /* webpackChunkName: "components/arrow" */).then(c => wrapFunctional(c.default || c)),
+  Article: () => import('../../components/Article.vue' /* webpackChunkName: "components/article" */).then(c => wrapFunctional(c.default || c)),
+  ArticleGrid: () => import('../../components/ArticleGrid.vue' /* webpackChunkName: "components/article-grid" */).then(c => wrapFunctional(c.default || c)),
   BrandCard: () => import('../../components/BrandCard.vue' /* webpackChunkName: "components/brand-card" */).then(c => wrapFunctional(c.default || c)),
   BrandCardList: () => import('../../components/BrandCardList.vue' /* webpackChunkName: "components/brand-card-list" */).then(c => wrapFunctional(c.default || c)),
   Button: () => import('../../components/Button.vue' /* webpackChunkName: "components/button" */).then(c => wrapFunctional(c.default || c)),

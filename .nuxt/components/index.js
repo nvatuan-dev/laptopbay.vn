@@ -1,6 +1,8 @@
 import { wrapFunctional } from './utils'
 
 export { default as Arrow } from '../../components/Arrow.vue'
+export { default as Article } from '../../components/Article.vue'
+export { default as ArticleGrid } from '../../components/ArticleGrid.vue'
 export { default as BrandCard } from '../../components/BrandCard.vue'
 export { default as BrandCardList } from '../../components/BrandCardList.vue'
 export { default as Button } from '../../components/Button.vue'
@@ -20,6 +22,8 @@ export { default as SideRightBar } from '../../components/SideRightBar.vue'
 export { default as Test } from '../../components/Test.vue'
 
 export const LazyArrow = import('../../components/Arrow.vue' /* webpackChunkName: "components/arrow" */).then(c => wrapFunctional(c.default || c))
+export const LazyArticle = import('../../components/Article.vue' /* webpackChunkName: "components/article" */).then(c => wrapFunctional(c.default || c))
+export const LazyArticleGrid = import('../../components/ArticleGrid.vue' /* webpackChunkName: "components/article-grid" */).then(c => wrapFunctional(c.default || c))
 export const LazyBrandCard = import('../../components/BrandCard.vue' /* webpackChunkName: "components/brand-card" */).then(c => wrapFunctional(c.default || c))
 export const LazyBrandCardList = import('../../components/BrandCardList.vue' /* webpackChunkName: "components/brand-card-list" */).then(c => wrapFunctional(c.default || c))
 export const LazyButton = import('../../components/Button.vue' /* webpackChunkName: "components/button" */).then(c => wrapFunctional(c.default || c))
