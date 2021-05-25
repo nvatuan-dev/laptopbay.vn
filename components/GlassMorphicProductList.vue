@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="flex justify-center bg-gradient-to-r from-green-400 to-blue-600 rounded-2xl">
-        <div class="md:grid grid-cols-3 gap-x-6 gap-y-4 py-4 items-center px-auto">
+        <div class="md:grid grid-cols-5 gap-x-6 gap-y-4 py-4 items-center px-auto">
           <GlassMorphicProduct
           v-for="(laptop,pIndex) in toBeShown"
           :key="pIndex"
@@ -33,10 +33,10 @@ export default {
   },
   computed: {
     toBeShown() {
-      return this.products.slice(0, this.currentPage * 3);
+      return this.products.slice(0, this.currentPage * 5);
     },
     totalPages() {
-      return Math.ceil(this.products.length / 3);
+      return Math.ceil(this.products.length / 5);
     },
   },
   methods: {
