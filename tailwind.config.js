@@ -1,4 +1,3 @@
-const fonts = require('/home/phongai/laptopbay/laptopbay.vn/constant/tailwindcss/font.js')
 module.exports = {
     purge: [],
     purge: {
@@ -31,10 +30,13 @@ module.exports = {
             '2xl': { 'min': '1400px' }
         },
         extend: {
-            fontFamily: fonts,
+            
         },
     },
     variants: {
+        extend: {
+          boxSizing: ['hover', 'focus'],
+        },
         opacity: ['responsive', 'hover'],
         extend: {},
     },

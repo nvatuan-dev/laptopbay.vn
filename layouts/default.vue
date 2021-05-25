@@ -10,10 +10,11 @@
     <div>
       <BrandCardList />
     </div>
+    <SideRightBar />
     <div class="container justify-center items-center mx-auto py-3">
       <glassProductList />
     </div>
-    <div class="container justify-center items-center mx-auto py-3 bg-gray-200 rounded-xl">
+    <div class="container text-center mx-auto p-4 bg-gray-200">
       <Button />
     </div>
     <div class="container justify-center items-center mx-auto py-3">
@@ -43,6 +44,7 @@ import ProductCarousel from "../components/ProductCarousel";
 import BrandCardList from "../components/BrandCardList";
 /* import GlassMorphicProductList from "../components/GlassMorphicProductList"; */
 import glassProductList from "../components/GlassMorphicProductList";
+import SideRightBar from "../components/SideRightBar";
 import ProductCardList from "../components/ProductCardList";
 export default {
   components:{

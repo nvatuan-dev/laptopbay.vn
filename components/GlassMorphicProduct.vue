@@ -23,7 +23,7 @@
 </template>
 <script>
 export default {
-  props: ['laptop']
+    props: ['laptop']
 }
 </script>
 <style>
