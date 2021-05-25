@@ -32,16 +32,22 @@
   "Product": {
     "description": "Auto imported from components/Product.vue"
   },
+  "ProductCard": {
+    "description": "Auto imported from components/ProductCard.vue"
+  },
+  "ProductCardList": {
+    "description": "Auto imported from components/ProductCardList.vue"
+  },
   "ProductCarousel": {
     "description": "Auto imported from components/ProductCarousel.vue"
   },
   "ProductList": {
     "description": "Auto imported from components/ProductList.vue"
   },
-  "SearchBar": {
-    "description": "Auto imported from components/SearchBar.vue"
-  },
   "SideGallery": {
     "description": "Auto imported from components/SideGallery.vue"
+  },
+  "Test": {
+    "description": "Auto imported from components/Test.vue"
   }
 }

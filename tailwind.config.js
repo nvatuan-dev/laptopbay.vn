@@ -1,13 +1,20 @@
-const fonts = require('./constants/tailwindcss/fonts.js')
+const fonts = require('/home/phongai/laptopbay/laptopbay.vn/constant/tailwindcss/font.js')
 module.exports = {
     purge: [],
-    purge: [
-        './components/**/*.{vue,js}',
-        './layouts/**/*.vue',
-        './pages/**/*.vue',
-        './plugins/**/*.{js,ts}',
-        './nuxt.config.{js,ts}',
-    ],
+    purge: {
+        mode: "layers",
+        enabled: process.env.NODE_ENV === "production",
+        content: [
+            "components/**/*.vue",
+            "layouts/**/*.vue",
+            "pages/**/*.vue",
+            "plugins/**/*.js",
+            "nuxt.config.js",
+            // TypeScript
+            "plugins/**/*.ts",
+            "nuxt.config.ts"
+        ]
+    },
     darkMode: false, // or 'media' or 'class'
     theme: {
         container: {

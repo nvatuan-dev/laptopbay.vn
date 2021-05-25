@@ -8,7 +8,7 @@
                 </div>
                 <div class="content">
                     <div class="color">
-                        <h3>Color :</h3>
+                        <h3>Color</h3>
                         <span></span>
                         <span></span>
                         <span></span>
@@ -49,8 +49,8 @@ export default {
     
     .container .card {
         position: relative;
-        width: 250px;
-        height: 450px;
+        width: 180px;
+        height: 320px;
         margin: 20px 40px;
         display: inline-block;
         justify-content: center;
@@ -88,8 +88,8 @@ export default {
     
     .container .card .img-box h2 {
         color: #fff;
-        font-weight: 900;
-        font-size: 20px;
+        font-weight: 800;
+        font-size: 18px;
         text-align: center;
     }
     .container .card:hover .img-box h2
@@ -153,7 +153,7 @@ export default {
         position: relative;
         top: 10px;
         display: inline-block;
-        padding: 12px 30px;
+        padding: 8px;
         background: #fff;
         border-radius: 40px;
         font-weight: 600;
