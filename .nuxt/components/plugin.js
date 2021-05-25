@@ -16,7 +16,8 @@ const components = {
   ProductCarousel: () => import('../../components/ProductCarousel.vue' /* webpackChunkName: "components/product-carousel" */).then(c => wrapFunctional(c.default || c)),
   ProductList: () => import('../../components/ProductList.vue' /* webpackChunkName: "components/product-list" */).then(c => wrapFunctional(c.default || c)),
   SearchBar: () => import('../../components/SearchBar.vue' /* webpackChunkName: "components/search-bar" */).then(c => wrapFunctional(c.default || c)),
-  SideGallery: () => import('../../components/SideGallery.vue' /* webpackChunkName: "components/side-gallery" */).then(c => wrapFunctional(c.default || c))
+  SideGallery: () => import('../../components/SideGallery.vue' /* webpackChunkName: "components/side-gallery" */).then(c => wrapFunctional(c.default || c)),
+  SideRightBar: () => import('../../components/SideRightBar.vue' /* webpackChunkName: "components/side-right-bar" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

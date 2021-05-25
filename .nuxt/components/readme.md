@@ -21,3 +21,4 @@ You can directly use them in pages and other components without the need to impo
 - `<ProductList>` | `<product-list>` (components/ProductList.vue)
 - `<SearchBar>` | `<search-bar>` (components/SearchBar.vue)
 - `<SideGallery>` | `<side-gallery>` (components/SideGallery.vue)
+- `<SideRightBar>` | `<side-right-bar>` (components/SideRightBar.vue)

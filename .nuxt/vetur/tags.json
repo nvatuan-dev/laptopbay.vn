@@ -43,5 +43,8 @@
   },
   "SideGallery": {
     "description": "Auto imported from components/SideGallery.vue"
+  },
+  "SideRightBar": {
+    "description": "Auto imported from components/SideRightBar.vue"
   }
 }

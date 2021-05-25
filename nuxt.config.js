@@ -32,6 +32,15 @@ export default {
         // https://go.nuxtjs.dev/tailwindcss
         '@nuxtjs/tailwindcss',
     ],
+    server: {
+        port: 3030,
+        host: 'localhost',
+        /*
+         ** Nuxt timing api
+         ** See https://nuxtjs.org/api/configuration-server/#using-timing-api
+         */
+        timing: false,
+    },
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [],

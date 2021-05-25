@@ -11,16 +11,16 @@
       <BrandCardList />
     </div>
     <Button />
-    <div>
+    <div class="flex flex-col w-full bg-white overflow-x-hidden overflow-y-auto mb-14">
       <ProductList />
-    </div>
-    <!-- Banner -->
-    <div>
-      <img src= "../assets/banner/banner_1.jpg">
-    </div>
-    <div>
+      <div class="flex items-center justify-center">
+        <div class="grid">
+          <img class="object-cover h-80 md:object-scale-down" src= "../assets/banner/banner_1.jpg">
+        </div>
+      </div>
       <ProductCarousel />
     </div>
+    <SideRightBar />
     <Button />
     <div class="pl-4">
       <glassProductList />
@@ -38,6 +38,7 @@ import ProductCarousel from "../components/ProductCarousel";
 import BrandCardList from "../components/BrandCardList";
 /* import GlassMorphicProductList from "../components/GlassMorphicProductList"; */
 import glassProductList from "../components/GlassMorphicProductList";
+import SideRightBar from "../components/SideRightBar";
 export default {
   components:{
     MegaMenu,
