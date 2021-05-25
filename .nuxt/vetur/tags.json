@@ -2,6 +2,12 @@
   "Arrow": {
     "description": "Auto imported from components/Arrow.vue"
   },
+  "Article": {
+    "description": "Auto imported from components/Article.vue"
+  },
+  "ArticleGrid": {
+    "description": "Auto imported from components/ArticleGrid.vue"
+  },
   "BrandCard": {
     "description": "Auto imported from components/BrandCard.vue"
   },

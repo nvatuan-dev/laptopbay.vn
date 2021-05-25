@@ -56,7 +56,7 @@ export default {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.4);
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(20 px);
         border-radius: 15px;
