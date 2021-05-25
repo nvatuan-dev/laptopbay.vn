@@ -1,6 +1,9 @@
 <template>
-    <div class="mx-2 mb-6 sm:mb-0 relative overflow-hidden rounded-lg max-w-xs shadow-lg hover:scale-105">
-      <img :src="product.src"
+    <div 
+      v-tilt
+      class="mx-2 mb-6 sm:mb-0 relative overflow-hidden rounded-lg max-w-xs shadow-lg hover:scale-105">
+      <img 
+        :src="product.src"
         class="max-h-80 h-64  object-cover object-center rounded-lg shadow-md"/>
 
       <div class="relative px-4 -mt-16">
