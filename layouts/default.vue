@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="block pb-2">
+    <div>
       <MegaMenu />
     </div>
     <div class="border-t-8 pb-2"></div>
