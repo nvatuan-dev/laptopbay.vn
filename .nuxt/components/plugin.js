@@ -19,6 +19,7 @@ const components = {
   ProductCardList: () => import('../..\\components\\ProductCardList.vue' /* webpackChunkName: "components/product-card-list" */).then(c => wrapFunctional(c.default || c)),
   ProductCarousel: () => import('../..\\components\\ProductCarousel.vue' /* webpackChunkName: "components/product-carousel" */).then(c => wrapFunctional(c.default || c)),
   ProductList: () => import('../..\\components\\ProductList.vue' /* webpackChunkName: "components/product-list" */).then(c => wrapFunctional(c.default || c)),
+  Promotion: () => import('../..\\components\\Promotion.vue' /* webpackChunkName: "components/promotion" */).then(c => wrapFunctional(c.default || c)),
   SideGallery: () => import('../..\\components\\SideGallery.vue' /* webpackChunkName: "components/side-gallery" */).then(c => wrapFunctional(c.default || c)),
   SideRightBar: () => import('../..\\components\\SideRightBar.vue' /* webpackChunkName: "components/side-right-bar" */).then(c => wrapFunctional(c.default || c)),
   Test: () => import('../..\\components\\Test.vue' /* webpackChunkName: "components/test" */).then(c => wrapFunctional(c.default || c)),

@@ -1,20 +1,16 @@
 <template>
     <div class="relative box-border-lg z-auto pr-2">
         <div class="p-1 text-xs items-center rounded-lg bg-white relative overflow-hidden">
-            <div class="flex flex-col flex-wrap box-border min-w-0 m-0">
-                <div class="w-full box-border m-0 m-w-0 space-y-3">
-                    <div class="flex-1 pt-2">
+            <div class="box-border w-full m-0">
+                <div class="w-full box-border mx-2 space-y-3">
+                    <div>
                         <a href="#" class="no-underline cursor-pointer text-xs">Điện máy - Điện gia dụng</a>
                     </div>
-                    <div class="box-border w-full m-0">
-                        <div class="w-full box-border mx-2 space-y-3">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
-                                </svg>
-                            </div>
-                            <a href="#" class="no-underline cursor-pointer text-xs inline">Laptop & Macbook</a>
-                        </div>
+                    <div class="border-t-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+                        </svg>
+                        <a href="#" class="no-underline cursor-pointer text-xs inline">Laptop & Macbook</a>
                     </div>
                     <div class="border-t-2"></div>
                     <div class="flex-1">
