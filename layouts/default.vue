@@ -47,10 +47,10 @@
           <Testimonials />
         </div>
       </main>
-      <aside class="h-screen sticky top-4 right-0">
-        <div class="flex">
+      <aside class="sticky md:h-screen md:top-4">
+        <div class="hidden md:flex">
           <img
-            class="object-cover w-48 hidden md:block" src="../assets/banner/verticle_3.jpg"
+            class="object-cover w-48" src="../assets/banner/verticle_3.jpg"
           />
         </div>
       </aside>
