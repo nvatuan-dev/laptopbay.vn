@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex justify-center bg-gradient-to-r from-blue-500 via-yellow-300 to-blue-500 rounded-2xl">
+    <div class="flex justify-center bg-blue-600 rounded-2xl">
         <div class="md:grid grid-cols-5 gap-x-6 gap-y-4 py-4 items-center px-auto">
           <GlassMorphicProduct
           v-for="(laptop,pIndex) in toBeShown"

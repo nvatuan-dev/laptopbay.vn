@@ -2,7 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Goodboiz\\\\Documents\\\\laptopbay.vn\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/phongai/laptopbay/laptopbay.vn/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_abbf165a"
   }
 ]
