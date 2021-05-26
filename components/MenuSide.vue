@@ -6,18 +6,15 @@
                     <div class="flex-1 pt-2">
                         <a href="#" class="no-underline cursor-pointer text-xs">Điện máy - Điện gia dụng</a>
                     </div>
-                    <div class="border-t-2"></div>
-                    <div class="flex-1 justify-between items-center text-xs font-medium">
-                        <span>
-                            <div height="22" width="22" class="relative flex overflow-hidden flex-auto z-0 m-auto rounded-none">
-                                <picture class="box-border">
-                                    <source class="text-xs font-medium leading-8" srcset="https://lh3.googleusercontent.com/YPRilsUoP8qUlqo5pP9qiIVT3GztqhJE8JnEqKc1nheAxqtJRy9Hdw2WuSuktg5Hf4wnK1aWvbBobrF4Lg=w50-rw">
-                                    <source class="text-xs font-medium leading-8" srcset="https://lh3.googleusercontent.com/YPRilsUoP8qUlqo5pP9qiIVT3GztqhJE8JnEqKc1nheAxqtJRy9Hdw2WuSuktg5Hf4wnK1aWvbBobrF4Lg=w50">
-                                    <img class="absolute top-0 left-0 w-full h-full object-contain align-middle" alt data-src="https://lh3.googleusercontent.com/YPRilsUoP8qUlqo5pP9qiIVT3GztqhJE8JnEqKc1nheAxqtJRy9Hdw2WuSuktg5Hf4wnK1aWvbBobrF4Lg=w50-rw" src="https://lh3.googleusercontent.com/YPRilsUoP8qUlqo5pP9qiIVT3GztqhJE8JnEqKc1nheAxqtJRy9Hdw2WuSuktg5Hf4wnK1aWvbBobrF4Lg=w50-rw">
-                                </picture>
+                    <div class="box-border w-full m-0">
+                        <div class="w-full box-border mx-2 space-y-3">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
+                                </svg>
                             </div>
-                        </span>
-                        <a href="#" class="no-underline cursor-pointer text-xs">Laptop & Macbook</a>
+                            <a href="#" class="no-underline cursor-pointer text-xs inline">Laptop & Macbook</a>
+                        </div>
                     </div>
                     <div class="border-t-2"></div>
                     <div class="flex-1">
