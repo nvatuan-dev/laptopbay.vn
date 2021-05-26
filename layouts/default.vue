@@ -7,7 +7,7 @@
       <MegaMenu />
     </div>
     <div class="border-t-8 pb-2"></div>
-    <div class="h-full" style="border-radius: 10px 10px 0 0">
+     <div class="h-full" style="border-radius: 10px 10px 0 0">
       <Carousel />
     </div>
     <div class="flex">
@@ -16,7 +16,7 @@
           <MenuSide />
         </div>
       </aside>
-      <main class="mx-32">
+      <div class="mx-32">
         <div>
           <Promotion />
         </div>
@@ -46,7 +46,7 @@
         <div class="container justify-center items-center mx-auto py-3">
           <Testimonials />
         </div>
-      </main>
+      </div>
       <aside class="sticky md:h-screen md:top-4">
         <div class="hidden md:flex">
           <img

@@ -1,6 +1,6 @@
 <template>
    <client-only>
-      <section class="container-carousel">
+      <div class="container-carousel">
          <div>
             <vue-flux class="carousel-wrap"
             :options="vfOptions"
@@ -25,7 +25,7 @@
             </vue-flux>
          </div>
       <SideGallery />
-      </section>
+      </div>
    </client-only>
 </template>
 <script>
@@ -49,7 +49,6 @@ export default {
       MenuSide,
       SideGallery
    },
-
    data: () => ({
       vfOptions: {
          autoplay: true,

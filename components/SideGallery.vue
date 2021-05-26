@@ -4,7 +4,6 @@
       <div
           v-for="(thumb, thumbIndex) in images"
           :key="thumbIndex"
-          class="flex-1 mr-8"
           @click="index = thumbIndex"
         >
           <img width="300" height="300" :src="thumb.url" class="thumbnail" />
