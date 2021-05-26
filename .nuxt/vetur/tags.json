@@ -50,6 +50,9 @@
   "ProductList": {
     "description": "Auto imported from components/ProductList.vue"
   },
+  "Promotion": {
+    "description": "Auto imported from components/Promotion.vue"
+  },
   "SideGallery": {
     "description": "Auto imported from components/SideGallery.vue"
   },

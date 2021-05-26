@@ -23,6 +23,7 @@ You can directly use them in pages and other components without the need to impo
 - `<ProductCardList>` | `<product-card-list>` (components/ProductCardList.vue)
 - `<ProductCarousel>` | `<product-carousel>` (components/ProductCarousel.vue)
 - `<ProductList>` | `<product-list>` (components/ProductList.vue)
+- `<Promotion>` | `<promotion>` (components/Promotion.vue)
 - `<SideGallery>` | `<side-gallery>` (components/SideGallery.vue)
 - `<SideRightBar>` | `<side-right-bar>` (components/SideRightBar.vue)
 - `<Test>` | `<test>` (components/Test.vue)

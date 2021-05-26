@@ -18,6 +18,9 @@
       </aside>
       <main class="mx-32">
         <div>
+          <Promotion />
+        </div>
+        <div>
           <BrandCardList />
         </div>
         <SideRightBar />
@@ -47,7 +50,7 @@
       <aside class="h-screen sticky top-4 right-0">
         <div class="flex">
           <img
-            class="object-cover w-48 md:object-scale-down" src="../assets/banner/verticle_3.jpg"
+            class="object-cover w-48 hidden md:block" src="../assets/banner/verticle_3.jpg"
           />
         </div>
       </aside>
@@ -69,6 +72,7 @@ import SideRightBar from "../components/SideRightBar";
 import ProductCardList from "../components/ProductCardList";
 import ArticleGrid from "../components/ArticleGrid";
 import Testimonials from "../components/Testimonials";
+import Promotion from "../components/Promotion";
 export default {
   components: {
     TopNav,
@@ -81,7 +85,8 @@ export default {
     BrandCardList,
     ProductCardList,
     ArticleGrid,
-    Testimonials
+    Testimonials,
+    Promotion,
   },
 };
 </script>
