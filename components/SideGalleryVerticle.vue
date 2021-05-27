@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="flex pt-4 space-x-3 pl-4">
+    <div class="flex-col pt-3 space-y-5">
       <div
           v-for="(thumb, thumbIndex) in images"
           :key="thumbIndex"
           @click="index = thumbIndex"
         >
-          <img width="275" height="275" :src="thumb.url" class="thumbnail" />
+          <img width="220" height="220" :src="thumb.url" class="thumbnail" />
       </div>
     </div>
         <LightGallery

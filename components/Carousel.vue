@@ -1,31 +1,35 @@
 <template>
    <client-only>
       <div class="container-carousel">
-         <div>
-            <vue-flux class="carousel-wrap"
-            :options="vfOptions"
-            :images="vfImages"
-            :transitions="vfTransitions">
+         <div class="pl-40 pr-36">
+         <div class="inline-flex">
+               <vue-flux class="carousel-wrap "
+               :options="vfOptions"
+               :images="vfImages"
+               :transitions="vfTransitions">
 
-               <template v-slot:preloader>
-                  <flux-preloader />
-               </template>
+                  <template v-slot:preloader>
+                     <flux-preloader />
+                  </template>
 
-               <template v-slot:caption>
-                  <flux-caption />
-               </template>
+                  <template v-slot:caption>
+                     <flux-caption />
+                  </template>
 
-               <template v-slot:controls>
-                  <flux-controls />
-               </template>
+                  <template v-slot:controls>
+                     <flux-controls />
+                  </template>
 
-               <template v-slot:pagination>
-                  <flux-pagination />
-               </template>
-            </vue-flux>
+                  <template v-slot:pagination>
+                     <flux-pagination />
+                  </template>
+               </vue-flux>
          </div>
-      <SideGallery />
+         <SideGalleryVerticle class="inline-flex h-full ml-4"/>
+         <SideGallery />
+         </div>
       </div>
+      
    </client-only>
 </template>
 <script>
@@ -39,6 +43,7 @@ import {
 import 'vue-flux/dist-ssr/vue-flux.css';
 import MenuSide from "../components/MenuSide";
 import SideGallery from "../components/SideGallery";
+import SideGalleryVerticle from "../components/SideGalleryVerticle";
 export default {
    components: {
       VueFlux,
@@ -47,7 +52,8 @@ export default {
       FluxPagination,
       FluxPreloader,
       MenuSide,
-      SideGallery
+      SideGallery,
+      SideGalleryVerticle
    },
    data: () => ({
       vfOptions: {
@@ -65,7 +71,7 @@ export default {
 </script>
 <style>
    .carousel-wrap {
-      width: 900px;
+      width: 895px;
       margin:0 auto;
       border-radius: 25px;
       z-index: 1;
@@ -73,9 +79,10 @@ export default {
    }
    .container-carousel{
       /* max-width: 1400px; */
-      margin:0 auto;
-      padding-top:30px;
-      padding-bottom: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 35px;
+      padding-bottom:35px;
       background-color: rgb(30, 58, 138);
       border-radius: 25px;
    }

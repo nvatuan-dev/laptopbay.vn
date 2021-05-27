@@ -1,7 +1,7 @@
 <template>
-      <div class="w-full overflow-y-auto">
+      <div class="w-full overflow-y-auto py-4">
         <div class="justify-between grid grid-cols-4 gap-4">
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center">
+          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
             <div class="rounded-xl mt-5">
               <img
                 src="../assets/promotion/promotion_1.jpg"
@@ -11,7 +11,7 @@
             </div>
           </div>
           <!-- end cols -->
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center">
+          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
             <div class="rounded-xl mt-5">
               <img
                 src="../assets/promotion/promotion_1.jpg"
@@ -21,7 +21,7 @@
             </div>
           </div>
           <!-- end cols -->
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center">
+          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
             <div class="rounded-xl mt-5">
               <img
                 src="../assets/promotion/promotion_1.jpg"
@@ -31,7 +31,7 @@
             </div>
           </div>
           <!-- end cols -->
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center">
+          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
             <div class="rounded-xl mt-5">
               <img
                 src="../assets/promotion/promotion_1.jpg"
