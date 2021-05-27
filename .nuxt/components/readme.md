@@ -31,4 +31,3 @@ You can directly use them in pages and other components without the need to impo
 - `<Test>` | `<test>` (components/Test.vue)
 - `<Testimonials>` | `<testimonials>` (components/Testimonials.vue)
 - `<TopNav>` | `<top-nav>` (components/TopNav.vue)
-- `<TopNavAlt>` | `<top-nav-alt>` (components/TopNavAlt.vue)

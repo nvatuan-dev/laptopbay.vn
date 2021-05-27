@@ -4,7 +4,6 @@
       <div class="container mx-auto">
         <TopNav />
       </div>
-      <MegaMenu />
     </div>
     <div class="border-t-8 pb-2"></div>
     <div class="flex">

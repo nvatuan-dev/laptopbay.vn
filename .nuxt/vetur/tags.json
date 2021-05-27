@@ -73,8 +73,5 @@
   },
   "TopNav": {
     "description": "Auto imported from components/TopNav.vue"
-  },
-  "TopNavAlt": {
-    "description": "Auto imported from components/TopNavAlt.vue"
   }
 }
