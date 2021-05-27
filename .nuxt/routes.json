@@ -1,5 +1,12 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/phongai/laptopbay/laptopbay.vn/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_eb2ecbe4"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/phongai/laptopbay/laptopbay.vn/pages/index.vue",
