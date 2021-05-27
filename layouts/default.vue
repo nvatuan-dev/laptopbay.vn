@@ -1,22 +1,23 @@
 <template>
   <div>
-    <div class="bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-300">
+    <div class="bg-gray-200">
       <div class="container mx-auto">
         <TopNav />
       </div>
       <MegaMenu />
     </div>
     <div class="border-t-8 pb-2"></div>
-    <div class="h-full" style="border-radius: 10px 10px 0 0">
-      <Carousel />
-    </div>
     <div class="flex">
-      <aside class="h-screen sticky top-4 left-0 pl-8">
+      <aside class="h-screen sticky top-4 pl-8">
         <div class="flex border-2 rounded-lg">
           <MenuSide />
         </div>
       </aside>
-      <main class="mx-32">
+      <div class="mr-32 ml-2">
+        <div class="block">
+          <RoundedList />
+          <Carousel />
+        </div>
         <div>
           <Promotion />
         </div>
@@ -46,14 +47,14 @@
         <div class="container justify-center items-center mx-auto py-3">
           <Testimonials />
         </div>
-      </main>
-      <aside class="sticky md:h-screen md:top-4">
+      </div>
+      <!-- <aside class="sticky md:h-screen md:top-4">
         <div class="hidden md:flex">
           <img
             class="object-cover w-48" src="../assets/banner/verticle_3.jpg"
           />
         </div>
-      </aside>
+      </aside> -->
     </div>
     <Footer />
   </div>
@@ -73,6 +74,7 @@ import ProductCardList from "../components/ProductCardList";
 import ArticleGrid from "../components/ArticleGrid";
 import Testimonials from "../components/Testimonials";
 import Promotion from "../components/Promotion";
+import RoundedList from "../components/RoundedList";
 export default {
   components: {
     TopNav,
@@ -87,6 +89,7 @@ export default {
     ArticleGrid,
     Testimonials,
     Promotion,
+    RoundedList
   },
 };
 </script>

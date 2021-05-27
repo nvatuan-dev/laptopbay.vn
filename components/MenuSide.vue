@@ -1,5 +1,5 @@
 <template>
-    <div class="relative box-border-lg z-auto pr-2">
+    <div class="right-0 box-border-lg z-auto">
         <div class="p-1 text-xs items-center rounded-lg bg-white relative overflow-hidden">
             <div class="box-border w-full m-0">
                 <div class="w-full box-border mx-2 space-y-3">

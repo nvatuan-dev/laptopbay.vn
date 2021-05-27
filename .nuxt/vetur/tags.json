@@ -53,8 +53,14 @@
   "Promotion": {
     "description": "Auto imported from components/Promotion.vue"
   },
+  "RoundedList": {
+    "description": "Auto imported from components/RoundedList.vue"
+  },
   "SideGallery": {
     "description": "Auto imported from components/SideGallery.vue"
+  },
+  "SideGalleryVerticle": {
+    "description": "Auto imported from components/SideGalleryVerticle.vue"
   },
   "SideRightBar": {
     "description": "Auto imported from components/SideRightBar.vue"
@@ -67,5 +73,8 @@
   },
   "TopNav": {
     "description": "Auto imported from components/TopNav.vue"
+  },
+  "TopNavAlt": {
+    "description": "Auto imported from components/TopNavAlt.vue"
   }
 }
