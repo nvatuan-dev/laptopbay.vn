@@ -69,7 +69,7 @@ export default {
    }),
 }
 </script>
-<style>
+<style lang="scss" scoped>
    .carousel-wrap {
       width: 895px;
       margin:0 auto;
@@ -90,6 +90,10 @@ export default {
       /* max-width: 1400px; */
       margin-left: auto;
       margin-right: auto;
+      @include md{
+         margin-left: 100px;
+         margin-right: 100px;
+      }
       padding-top: 35px;
       padding-bottom:35px;
       background-color: rgb(30, 58, 138);
