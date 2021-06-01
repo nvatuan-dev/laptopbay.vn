@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="hidden 2xl:inline-flex 2xl:h-full 2xl:ml-4">
     <div class="flex-col pt-3 space-y-5">
       <div
           v-for="(thumb, thumbIndex) in images"
           :key="thumbIndex"
           @click="index = thumbIndex"
         >
-          <img width="220" height="220" :src="thumb.url" class="thumbnail" />
+          <img width="230" height="230" :src="thumb.url" class="thumbnail" />
       </div>
     </div>
         <LightGallery
@@ -31,7 +31,7 @@ export default {
   ),
 };
 </script>
-<style scoped>
+<style>
 .thumbnail {
   border: 1px solid #cdcdcd;
   padding: 5px;

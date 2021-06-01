@@ -1,14 +1,11 @@
 <template>
   <div>
-    <div>
-      <div class="container max-w-full">
-        <TopNav />
-      </div>
-      <!-- <MegaMenu /> -->
-    </div>
-    <div class="border-t-8 pb-2"></div>
+      <TopNav />
+      <div class="border-t-8 pb-2"></div>
+     
       <Nuxt />
-    <Footer />
+   
+      <Footer />
   </div>
 </template>
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center bg-gray-200 rounded-2xl">
-    <div class="md:grid grid-cols-4 gap-x-8 gap-y-4 py-4 items-center">
+    <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-2 md:gap-x-4 gap-y-4 py-4 items-center">
 
         <ProductCard 
         v-for="product in products"

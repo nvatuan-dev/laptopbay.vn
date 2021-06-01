@@ -1,7 +1,4 @@
 {
-  "Arrow": {
-    "description": "Auto imported from components/Arrow.vue"
-  },
   "Article": {
     "description": "Auto imported from components/Article.vue"
   },
@@ -35,6 +32,15 @@
   "MenuSide": {
     "description": "Auto imported from components/MenuSide.vue"
   },
+  "MobileCard": {
+    "description": "Auto imported from components/MobileCard.vue"
+  },
+  "MobileCardList": {
+    "description": "Auto imported from components/MobileCardList.vue"
+  },
+  "MobileMenu": {
+    "description": "Auto imported from components/MobileMenu.vue"
+  },
   "Product": {
     "description": "Auto imported from components/Product.vue"
   },
@@ -64,9 +70,6 @@
   },
   "SideRightBar": {
     "description": "Auto imported from components/SideRightBar.vue"
-  },
-  "Test": {
-    "description": "Auto imported from components/Test.vue"
   },
   "Testimonials": {
     "description": "Auto imported from components/Testimonials.vue"

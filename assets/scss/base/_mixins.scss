@@ -1,0 +1,64 @@
+// =============================================================================
+// Media queries
+// =============================================================================
+// Small devices
+
+/* Small (sm) */
+
+$screen-sm-min: 480px;
+
+/* Medium (md) */
+
+$screen-md-min: 768px;
+
+/* Large (lg) */
+
+$screen-lg-min: 1024px;
+
+/* Extra Large (xl) */
+
+$screen-xl-min: 1280px;
+
+/* Two Extra Large (xxl) */
+
+$screen-xxl-min: 1536px;
+@mixin sm {
+    @media (min-width: $screen-sm-min) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (min-width: $screen-md-min) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (min-width: $screen-lg-min) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (min-width: $screen-xl-min) {
+        @content;
+    }
+}
+
+// Fluid devices
+@mixin xxl {
+    @media (min-width: $screen-xxl-min) {
+        @content;
+    }
+}
+
+// Custom devices
+@mixin rwd($screen) {
+    @media (min-width: $screen+'px') {
+        @content;
+    }
+}

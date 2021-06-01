@@ -17,13 +17,21 @@ export default {
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: ['~/assets/css/tailwind.css'],
+    styleResources: {
+        scss: [
+            '~/assets/scss/base/_mixins.scss'
+        ]
+    },
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
         '@/plugins/vue-carousel-card',
         { src: "~/plugins/lightGallery.client.js", ssr: false },
         { src: '~/plugins/vue-fb-customer-chat.js', mode: 'client', ssr: false },
+        /*  { src: '~/plugins/vuetify.js', ssr: false }, */
         '~/plugins/vue-tilt.js',
+        '~/plugins/element-ui',
+        { src: '~plugins/slide-menu', ssr: false }
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
@@ -33,6 +41,7 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/tailwindcss
         '@nuxtjs/tailwindcss',
+        '@nuxtjs/style-resources'
     ],
     tailwindcss: {},
     server: {
@@ -46,8 +55,14 @@ export default {
     },
 
     // Modules: https://go.nuxtjs.dev/config-modules
-    modules: [],
+    modules: [
+        '@nuxtjs/style-resources'
+    ],
+    transition: {
+        name: 'el-fade-in-linear',
+        mode: 'out-in',
+    },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {}
+    build: { vendor: ['vue-burger-menu'] }
 }
