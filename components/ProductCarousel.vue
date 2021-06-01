@@ -1,5 +1,5 @@
 <template>
-    <div class="container items-cemter justify-center mx-auto py-8 bg-gray-200">
+    <div class="hidden md:container items-cemter justify-center mx-auto py-8 bg-gray-200">
       <CarouselCard :interval="2000" height="400px" type="card" arrow="always">
         <CarouselCardItem v-for="product in products " :key="product.src" :product="product">
           <div class="mb-4">

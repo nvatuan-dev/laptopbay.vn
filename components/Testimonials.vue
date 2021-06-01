@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center justify-center bg-white">
         <div class="px-10 bg-white">
-            <div class="container flex flex-col items-center justify-center py-12 mx-auto">
+            <div class="flex flex-col items-center justify-center py-12 mx-auto">
                 <p class="text-lg font-medium tracking-wider text-teal-500 uppercase">Testimonials</p>
                 <h2 class="max-w-3xl pr-12 text-5xl font-bold text-center">Customer Thoughts 🥰</h2>
                 <div class="items-center justify-center w-full mt-16 mb-4 lg:flex">

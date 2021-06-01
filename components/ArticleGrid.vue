@@ -1,7 +1,7 @@
 <template>
-    <div class="flex justify-center items-center">
+    <div class="bg-gray-200 justify-center sm:mx-auto">
         <div class="grid grid-cols-2 gap-4">
-            <div>
+            <div >
                 <Article />
             </div>
             <div>

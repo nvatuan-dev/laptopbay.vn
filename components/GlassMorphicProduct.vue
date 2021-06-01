@@ -26,7 +26,8 @@ export default {
     props: ['laptop']
 }
 </script>
-<style>
+<style lang="scss" scoped>
+
     /* section {
         display: flex;
         justify-content: center;
@@ -47,11 +48,17 @@ export default {
         flex-wrap: wrap;
     } */
     
-    .container .card {
+    .container > {
+        .card {
         position: relative;
-        width: 180px;
-        height: 320px;
-        margin: 20px 40px;
+        @include md {
+            width: 180px;
+            height: 320px;
+            margin: 20px 40px;
+        }
+        width:130px;
+        height:200px;
+        margin: 5px 15px;
         display: inline-block;
         justify-content: center;
         align-items: center;
@@ -60,106 +67,130 @@ export default {
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
         backdrop-filter: blur(20 px);
         border-radius: 15px;
-    }
-    
-    .container .card .img-box {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-        transition: 0.5s ease-in-out;
-    }
-    
-    .container .card:hover .img-box {
-        transform: translateY(-40px);
-    }
-    
-    .container .card .img-box img {
-        max-width: 100%;
-        margin: 0 0 20px;
-        transition: 0.5s ease-in-out;
-    }
-    
-    .container .card:hover .img-box img {
-        transform: translate(-20px, -40px) rotate(-25deg) scale(1.4);
-    }
-    
-    .container .card .img-box h2 {
-        color: #fff;
-        font-weight: 800;
-        font-size: 18px;
-        text-align: center;
-    }
-    .container .card:hover .img-box h2
-    {
-        transform: translateY(-60px);
-    }
-    
-    .container .card .content {
-        position: absolute;
-        bottom: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        transition: 0.5s ease-in-out;
-        opacity: 0;
-        visibility: hidden;
-    }
-    
-    .container .card:hover .content {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(-50px);
-    }
-    
-    .container .card .content .color {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 8px 20px;
-    }
-    
-    .container .card .content .color h3 {
-        color: #fff;
-        font-weight: 300;
-        font-size: 14px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-right: 10px;
-    }
-    
-    .container .card .content .color span {
-        width: 20px;
-        height: 20px;
-        background: #fff;
-        border-radius: 50%;
-        margin: 0 5px;
-        border: 2px solid #fff;
-        box-sizing: border-box;
-        cursor: pointer;
-    }
+        .img-box{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            transition: 0.5s ease-in-out;
+            img {
+                max-width: 100%;
+                margin: 0 0 20px;
+                transition: 0.5s ease-in-out;
+            }
+            h2 {
+                color: #fff;
+                font-weight: 800;
+                font-size: 12px;
+                @include md{
+                    font-size:18px;
+                }
+                text-align: center;
+            }
+        }
+        .content {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: 0.5s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
 
-    .container .card .content .color span:nth-child(2){
-        background: #111;
-    }
+            .color {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include md {
+                padding: 8px 20px;
+            }
+            padding-left: 10px;
 
-    .container .card .content .color span:nth-child(3){
-        background: #a4b2bf;
+            
+
+        
+
+            h3{
+            color: #fff;
+            font-weight: 300;
+            font-size: 10px;
+            @include md {
+                font-weight: 400;
+                font-size: 14px;
+                margin-right:10px;
+            }
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-right: 2px;
+            }
+            span{
+                width: 15px;
+                height: 15px;
+                background: #fff;
+                border-radius: 50%;
+                @include md {
+                    width: 20px;
+                    height: 20px;
+                }
+                margin: 0 5px;
+                border: 2px solid #fff;
+                box-sizing: border-box;
+                cursor: pointer;
+                &:nth-child(2){
+                    background: #111;
+                }
+                &:nth-child(3){
+                    
+                    background: #a4b2bf;
+                }
+            }
+            }
+            a{
+                position: relative;
+                top: 10px;
+                display: inline-block;
+                background: #fff;
+                border-radius: 40px;
+                font-weight: 500;
+                padding: 1px;
+                font-size: 10px;
+                @include md{
+                    font-weight: 600;
+                    padding: 8px;
+                    font-size: 12px;
+                }
+                letter-spacing: 1px;
+                color: #111;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+        }
+        &:hover{
+            .img-box{
+                transform: translateY(-40px);
+                img {
+                    transform: translate(-20px, -40px) rotate(-25deg) scale(1.4);
+                }
+                h2 {
+                    transform: translateY(-60px);
+                }
+                
+            }
+            .content {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateY(-50px);
+                }
+        }
     }
-    .container .card .content a {
-        position: relative;
-        top: 10px;
-        display: inline-block;
-        padding: 8px;
-        background: #fff;
-        border-radius: 40px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        color: #111;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+}
+    
+    
+
+
 </style>

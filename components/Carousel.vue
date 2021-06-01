@@ -1,8 +1,7 @@
 <template>
    <client-only>
       <div class="container-carousel">
-         <div class="pl-40 pr-36">
-         <div class="inline-flex">
+               <MenuSide class="inline-block pl-6"/>
                <vue-flux class="carousel-wrap "
                :options="vfOptions"
                :images="vfImages"
@@ -24,10 +23,10 @@
                      <flux-pagination />
                   </template>
                </vue-flux>
-         </div>
-         <SideGalleryVerticle class="inline-flex h-full ml-4"/>
-         <SideGallery />
-         </div>
+
+               <SideGalleryVerticle />
+               <SideGallery class="pl-52"/>
+
       </div>
       
    </client-only>
@@ -53,7 +52,8 @@ export default {
       FluxPreloader,
       MenuSide,
       SideGallery,
-      SideGalleryVerticle
+      SideGalleryVerticle,
+      MenuSide
    },
    data: () => ({
       vfOptions: {
@@ -75,7 +75,16 @@ export default {
       margin:0 auto;
       border-radius: 25px;
       z-index: 1;
-      display: flex;
+      display: inline-flex;
+   }
+   @media only screen and (max-width: 1500px) {
+      .carousel-wrap {
+      width: 860px;
+      margin:0 auto;
+      border-radius: 25px;
+      z-index: 1;
+      display: inline-flex;
+   }
    }
    .container-carousel{
       /* max-width: 1400px; */

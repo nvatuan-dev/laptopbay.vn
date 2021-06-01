@@ -1,45 +1,30 @@
 <template>
-      <div class="w-full overflow-y-auto py-4">
-        <div class="justify-between grid grid-cols-4 gap-4">
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
-            <div class="rounded-xl mt-5">
-              <img
+      <div>
+        <div class="justify-between hidden xl:grid xl:grid-cols-4 lg:grid-cols-2 gap-4">
+            <img
                 src="../assets/promotion/promotion_1.jpg"
-                class="h-40 rounded-md hidden object-scale-down md:block"
+                class="rounded-md mx-auto w-1/2 xl:w-4/5 2xl:w-full md:flex"
                 alt=""
               />
-            </div>
-          </div>
+          
           <!-- end cols -->
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
-            <div class="rounded-xl mt-5">
-              <img
+           <img
                 src="../assets/promotion/promotion_1.jpg"
-                class="h-40 rounded-md hidden object-scale-down md:block"
+                class="rounded-md mx-auto w-1/2 xl:w-4/5 2xl:w-full md:flex"
                 alt=""
               />
-            </div>
-          </div>
           <!-- end cols -->
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
-            <div class="rounded-xl mt-5">
-              <img
+           <img
                 src="../assets/promotion/promotion_1.jpg"
-                class="h-40 rounded-md hidden object-scale-down md:block"
+                class="rounded-md mx-auto w-1/2 xl:w-4/5 2xl:w-full md:flex"
                 alt=""
               />
-            </div>
-          </div>
           <!-- end cols -->
-          <div class="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center shadow-xl">
-            <div class="rounded-xl mt-5">
-              <img
+           <img
                 src="../assets/promotion/promotion_1.jpg"
-                class="h-40 rounded-md hidden object-scale-down md:block"
+                class="rounded-md mx-auto w-1/2 xl:w-4/5 2xl:w-full md:flex"
                 alt=""
               />
-            </div>
-          </div>
           <!-- end cols -->
           
         </div>

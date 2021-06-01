@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex pt-4 space-x-3 pl-4">
+    <div class="inline-flex pt-4 space-x-3 pl-14 lg:pl-20">
       <div
           v-for="(thumb, thumbIndex) in images"
           :key="thumbIndex"
